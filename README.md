@@ -9,6 +9,9 @@ Educational and mostly for usage in many online challenges, which I happen to so
 Of course feel free to use all of this stuff, contributions are welcome!
 
 ##### Inside:
+* sorting
+  * insortion sort
+* math
+  * Collatz sequence algorithms
 
-
-not many for now, but it will get gradually updated ;)
+not many for now, but it will get gradually build up ;)
