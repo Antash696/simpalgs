@@ -1,9 +1,10 @@
-# Algorithms generating Collatz sequence using memoization
+""" Algorithms generating Collatz sequence """
 
 
-# algorithm returning length of Collatz sequence
 def collatz_length(start, memo):
-    """memo has to be initialized with dict {2: 1}"""
+    """ Algorithm returning length of Collatz sequence starting from a given integer.
+        Uses memoization of previously computed lenghts.
+        MEMO has to be initialized with dict {2: 1}"""
     n = start
     seq_l = 0
     while n > 1:
@@ -15,9 +16,19 @@ def collatz_length(start, memo):
             n = n // 2
             seq_l += 1
         else:
-            n = (n*3 + 1) // 2  # n*3+1 always returns even value so we "skip" it.
+            n = (n * 3 + 1) // 2  # n*3+1 always returns even value so we "skip" it.
             seq_l += 2
 
 
-# algorithm returning whole Collatz sequence
-# TODO
+def collatz_seq(start):
+    """ Algorithm returning whole Collatz sequence starting from a given interger. """
+    n = start
+    seq = [start]
+    while n > 1:
+        if n % 2 == 0:
+            n = n // 2
+            seq.append(n)
+        else:
+            n = (n * 3 + 1) // 2
+            seq.extend([n * 2, n])
+    return seq
