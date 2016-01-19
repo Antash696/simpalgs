@@ -5,4 +5,4 @@ python:
 install:
  - pip3 install pep8 pip-tools coverage pytest pytest-cov
 script:
- - py.test --cov=algs
+ - py.test --cov
