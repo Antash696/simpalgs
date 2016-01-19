@@ -2,7 +2,8 @@
 
 
 def collatz_length(start, memo):
-    """ Algorithm returning length of Collatz sequence starting from a given integer.
+    """ Algorithm returning length of Collatz sequence
+            starting from a given integer.
         Uses memoization of previously computed lenghts.
         MEMO has to be initialized with dict {2: 1}"""
     n = start
@@ -16,12 +17,13 @@ def collatz_length(start, memo):
             n = n // 2
             seq_l += 1
         else:
-            n = (n * 3 + 1) // 2  # n*3+1 always returns even value so we "skip" it.
+            n = (n * 3 + 1) // 2  # returns even value so -> // 2 skip's it.
             seq_l += 2
 
 
 def collatz_seq(start):
-    """ Algorithm returning whole Collatz sequence starting from a given interger. """
+    """ Algorithm returning whole Collatz sequence
+        starting from a given interger. """
     n = start
     seq = [start]
     while n > 1:
