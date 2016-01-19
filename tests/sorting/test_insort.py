@@ -14,7 +14,7 @@ class TestInsort(unittest.TestCase):
                 continue  # ok
             else:
                 return False
-        return True
+        return False
 
     def test_sort(self):
         insertion_sort(self.test_arr)
