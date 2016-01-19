@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/Antash696/simpalgs/badge.svg?branch=master)](https://coveralls.io/github/Antash696/simpalgs?branch=master)
+
 # simpalgs
 #####Collection of simple algorithms* in Python
 
