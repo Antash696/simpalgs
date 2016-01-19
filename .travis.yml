@@ -3,6 +3,9 @@ python:
  - "3.4"
 # command to install dependencies
 install:
- - pip3 install pep8 pip-tools coverage pytest pytest-cov
+ - pip3 install pytest pytest-cov
+ - pip3 install coveralls
 script:
- - py.test --cov=./algs
+ - py.test
+after_success:
+ - coveralls
