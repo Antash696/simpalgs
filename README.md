@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/Antash696/simpalgs.svg?branch=master)](https://travis-ci.org/Antash696/simpalgs)
 [![Coverage Status](https://coveralls.io/repos/github/Antash696/simpalgs/badge.svg?branch=master)](https://coveralls.io/github/Antash696/simpalgs?branch=master)
+[![Build Status](https://travis-ci.org/Antash696/simpalgs.svg?branch=master)](https://travis-ci.org/Antash696/simpalgs)
 
 # simpalgs
 #####Collection of simple algorithms* in Python
