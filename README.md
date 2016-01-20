@@ -18,5 +18,8 @@ Of course feel free to use all of this stuff, contributions are welcome!
   * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/math/collatz.py >Collatz sequence algorithms</a>
   * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/math/GCD.py >greatest common divisor</a>
   * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/math/LCM.py >least common multiple</a>
+  * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/math/primality_check.py >primality tests</a>
+  * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/math/prime_generators.py >primes generators</a>
+  * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/math/integer_factorization.py >integer factorization</a>
 
-not many for now, but it will be gradually build up ;)
+not to many for now, but it will be gradually build up ;)
