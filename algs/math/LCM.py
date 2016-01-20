@@ -1,4 +1,4 @@
-from GCD import GCD
+from algs.math.GCD import GCD
 
 
 def LCM(x, y):  # for multiple x, y use recursion.
