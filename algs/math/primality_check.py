@@ -3,6 +3,5 @@ def is_prime(p):
         return False
     for i in range(3, round(p ** 0.5) + 1, 2):
         if p % i == 0:
-            print (p, i)
             return False
     return True
