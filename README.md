@@ -13,8 +13,10 @@ Of course feel free to use all of this stuff, contributions are welcome!
 
 ##### Inside:
 * sorting
-  * insortion sort
+  * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/sorting/insort.py >insertion sort</a>
 * math
-  * Collatz sequence algorithms
+  * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/math/collatz.py >Collatz sequence algorithms</a>
+  * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/math/GCD.py >greatest common divisor</a>
+  * <a href=https://github.com/Antash696/simpalgs/blob/master/algs/math/LCM.py >least common multiple</a>
 
-not many for now, but it will get gradually build up ;)
+not many for now, but it will be gradually build up ;)
